@@ -4,6 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>TechWorld</title>
+
+    <!-- fa link -->
+    <script src="https://kit.fontawesome.com/f581dbcc82.js" crossorigin="anonymous"></script>
     <!-- bootstrap css link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -431,7 +434,174 @@
       </div>
     </section>
     <!-- join section end -->
+    <!-- faq start -->
+    <section class="faq">
+      <div class="top text-center">
+        <h1>FAQ</h1>
+        <p>Click on the question to see the answer find the best result</p>
+      </div>
+      <div class="container">
+        <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Difference Between Flexbox and Grid
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                Grid and flexbox. The basic difference between CSS Grid Layout
+                and CSS Flexbox Layout is that flexbox was designed for layout
+                in one dimension - either a row or a column. Grid was designed
+                for two-dimensional layout - rows, and columns at the same time.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Difference between Bootstrap and Tailwind
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                Bootstrap is much larger than Tailwind and requires multiple
+                files to access its full functionality. Because of this, using
+                Bootstrap means a significantly larger file size than Tailwind.
+                Bootstrap also offers mobile-first, responsive components
+                pre-styled to create flawless website pages quickly.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              What is Box model
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                In web development, the CSS box model refers to how HTML
+                elements are modeled in browser engines and how the dimensions
+                of those HTML elements are derived from CSS properties. It is a
+                fundamental concept for the composition of HTML webpages.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              What is semantic tag with example
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <p>
+                The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+                examples: <footer>,<header>,<section>,<main>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- faq end -->
+    <!-- companies start -->
+    <section class="companies d-none d-lg-block py-5">
+        <h1 class="text-center">
+            Trusted by over 800+ companies
+        </h1>
+        <div class="container">
+            <div class="row gy-3 align-items-center">
+                <div class="col">
+                    <img src="./images/company/company-1.png" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="./images/company/company-2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="./images/company/company-3.png" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="./images/company/company-4.png" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="./images/company/company-5.png" alt="" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="./images/company/company-6.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- companies end -->
 
+    <!-- footer start -->
+    <footer class="bg-dark text-light text-center py-5">
+        <h2 class="fw-bold">Tech World</h2>
+        <address>Dhanmondi 32, shukrabad dhaka 1207, bangladesh</address>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+
+    </footer>
+    <!-- footer end -->
+    
     <!-- bootstrap js link -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
